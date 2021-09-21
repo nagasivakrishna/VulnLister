@@ -20,7 +20,7 @@ Made with ❤️ by **SivaKrishna**
 *PS: Ofcourse, an alternative for this is exploitdb. . . .!  Duhh*
 
 # Steps to run
-run:
+run in the cloned directory or the directory where the VulnLister.py and requirements.txt is located:
 
 $ pip install -r requirements.txt
 
