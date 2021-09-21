@@ -1,3 +1,8 @@
+# https://github.com/nagasivakrishna/VulnLister/
+# Use it with precaution and do not use it extensively
+# To reduce the data set building time and results reduce the page numbers on line 93
+# Made with love by SivaKrishna
+
 import requests
 import time
 import re
@@ -85,7 +90,7 @@ def main(choice):
             print("Building Data SET! ....")
             time.sleep(2)
             print("takes like 10 seconds that's it >UwU<")
-            while page <= 10:    # default number of pages. Edit for more values.
+            while page <= 10:    # default number of pages. Edit for more or less values.
                 run(link, ch)
                 page += 1
                 link = f"https://www.rapid7.com/db/?q=&type=&page={page}"
