@@ -82,6 +82,7 @@ def main(choice):
             page += 1
             link = f"https://www.rapid7.com/db/?q=&type=&page={page}"
             time.sleep(1)
+        main(0)
     else:
         if len(vulns) < 200:
             page = 1
