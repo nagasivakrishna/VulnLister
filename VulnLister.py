@@ -59,7 +59,7 @@ def run(l, ch):
 {vulns[i]}
 {metadata[i]}
 {redirects[i]}''')
-        main(0)
+    
 
 
 def main(choice):
